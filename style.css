@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, black, blue, aqua);
+    background: linear-gradient(to right, aliceblue, lightgrey);
     opacity: 100%;
 }
 .product {
@@ -8,9 +8,12 @@ body {
     margin: 20px;
     border: 2px solid black;
     padding: 20px;
-    background-color: aliceblue; 
+    background-color:aliceblue;
     padding: 5px 10px; 
     border-radius: 5px; 
+  }
+  .product:hover{
+    background-color: lightgrey;
   }
   
   .product img {
@@ -28,23 +31,21 @@ body {
     margin: 0 0 10px 0;
   }
   
-  .info p {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-  }
-  
-  .info ul {
+  ul {
     list-style-type: none;
     padding: 0;
     margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   
-  .info ul li {
+  ul li {
     display: inline;
     margin-right: 10px;
   }
   
-  .info ul li a {
+  ul li a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
