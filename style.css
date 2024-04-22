@@ -6,7 +6,7 @@ body {
     display: inline-block;
     align-items: center;
     margin: 20px;
-    border: 2px solid black;
+    border: 2px solid rgb(80, 80, 80);
     padding: 20px;
     background-color:aliceblue;
     padding: 5px 10px; 
@@ -47,10 +47,14 @@ body {
   
   ul li a {
     text-decoration: none;
-    color: #333;
+    color: aliceblue;
     font-size: 16px;
-    background-color: aqua; 
+    background-color: rgb(80, 80, 80); 
     padding: 5px 10px; 
     border-radius: 5px;
+  }
+  ul li a:hover {
+    color: rgb(80, 80, 80);
+    background-color: aliceblue;
   }
   
