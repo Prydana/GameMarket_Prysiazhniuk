@@ -3,7 +3,6 @@ body {
     opacity: 100%;
 }
 .product {
-    display: inline-block;
     align-items: center;
     margin: 20px;
     border: 2px solid rgb(80, 80, 80);
@@ -11,6 +10,8 @@ body {
     background-color:aliceblue;
     padding: 5px 10px; 
     border-radius: 5px; 
+    display: flex;
+    /*justify-content: flex-start;*/
   }
   .product:hover{
     background-color: lightgrey;
@@ -21,7 +22,6 @@ body {
     height: 200px;
     margin-right: 20px;
     border-radius: 200px;
-    display: flex;
   }
   
   .info {
@@ -43,7 +43,7 @@ body {
   }
   
   ul li {
-    display: inline;
+    display: flex;
     margin-right: 10px;
   }
   
