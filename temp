@@ -1,0 +1,24 @@
+<div class="item">
+                <!--Name-->
+                <div class="item-title">Мотокоса 43</div>
+                <!--Photo-->
+                <div class="item-image"></div>
+                <!--Small parts-->
+                <div class="parts-pay">
+                    <div><img src="img/mono-lapka.png" alt=""> 6</div>
+                    <div><img src="img/pryvat.png" alt=""> 8</div>
+                </div>
+                <!--Price-->
+                <div class="price">
+                    <div><span>5499</span><sup>грн</sup></div>
+                    <div><span>4497</span><sup>грн</sup></div>
+                </div>
+                <!--Bonus-->
+                <div class="bonus price">
+                    <div>ціна за купоном</div>
+                    <div>4395<span></span><sup>грн</sup></div>
+                </div>    
+            </div>
+            <div class="item">Тример</div>
+            <div class="item">Газонокосарка</div>
+            <div class="item">Оприскувач</div>
