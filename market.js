@@ -17,5 +17,5 @@ if(itemsDiv){
     itemsDiv.innerHTML += '<div class="item"></div>';
 } else{
     //No
-    console.log('Not Found')
+    console.log('Not Found');
 }
