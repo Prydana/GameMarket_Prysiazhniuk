@@ -11,7 +11,7 @@ let itemsDiv = document.getElementById('items');
 //Is items with us?
 if(itemsDiv){
     //Yes
-    ItemsArray.sort().forEach((item, index)=>{
+    ItemsArray.forEach((item, index)=>{
         //console.log(item)
         itemsDiv.innerHTML += 
         `<div class="item">
