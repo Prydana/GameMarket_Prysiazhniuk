@@ -15,7 +15,7 @@ if(itemsDiv){
         //console.log(item)
         itemsDiv.innerHTML += 
         `<div class="item">
-            <h2>Товар №${index+1}</h2>
+            <h2>Товар №${index+1} з 4</h2>
             <p>${item}</p>
         </div>`;
     })
