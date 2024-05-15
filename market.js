@@ -36,6 +36,24 @@ let ItemsArray = [
         photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg',
         url:'https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/',
 
+    },
+    {
+        firstName:'Анжела',
+        lastName:'Лознюк',
+        age:20,
+        subject:'Українська мова та література',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/',
+
+    },
+    {
+        firstName:'Ірина',
+        lastName:'Боровська-Карандюк',
+        age:20,
+        subject:'Зарубіжна література',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/',
+
     }
 ]
 //id = "items"
