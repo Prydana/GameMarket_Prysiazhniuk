@@ -1,29 +1,59 @@
 console.log("Check connection")
 //Masive of products
 let ItemsArray = [
-    'Газонокосарка 43',
-    'Електричний тример 110',
-    'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12 N',
-    'Газонокосарка 43',
-    'Електричний тример 110',
-    'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12 N',
-    'Газонокосарка 43',
-    'Електричний тример 110',
-    'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12 N',]
+    {
+        firstName:'Іван',
+        lastName:'Севрук',
+        age:60,
+        subject:'Захист України',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/sevruk-ivan-hryhorovych-683x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/sevruk-i-h/',
+
+    },
+    {
+        firstName:'Наталія',
+        lastName:'Венцель',
+        age:20,
+        subject:'Директор',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/ventsel-n-v/',
+
+    },
+    {
+        firstName:'Віталій',
+        lastName:'Шатківський',
+        age:43,
+        subject:'Інформатика',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/',
+
+    },
+    {
+        firstName:'Вікторія',
+        lastName:'Нелипович',
+        age:20,
+        subject:'Математика',
+        photo:'https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg',
+        url:'https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/',
+
+    }
+]
 //id = "items"
 let itemsDiv = document.getElementById('items');
 //Is items with us?
 if(itemsDiv){
     //Yes
-    ItemsArray.forEach((item, index)=>{
+    ItemsArray
+    .sort((a,b) => a.lastName.localeCompare(b.lastName))
+    .forEach((item, index)=>{
         //console.log(item)
         itemsDiv.innerHTML += 
         `<div class="item">
-            <h2>Товар №${index+1} з ${ItemsArray.length}</h2>
-            <p>${item}</p>
+            <h2>Вчитель ${index+1} з ${ItemsArray.length}</h2>
+            <p>${item.lastName} ${item.firstName}</p>
+            <p>Вік: ${item.age}</p>
+            <p><img src="${item.photo}" class="item-image"></p>
+            <p><a href="${item.url}" target="_blank">Профіль</p>
         </div>`;
     })
     /*console.log('itemsDiv')
