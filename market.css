@@ -58,11 +58,11 @@ content {
 }
 .item-title{
     font-weight: bold;
+    max-width: 180px;
+    min-height:32px;
 }
 .item-image{
-    height: 250px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+    height: 200px;
 }
 .parts-pay{
     display: flex;
