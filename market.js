@@ -4,8 +4,6 @@ let ItemsArray = [
     {
       title:"Мотокоса 43",
       image:"img/moto.jpg",
-      mono:6,
-      pb:8,
       price:5499,
       lower:4497,
       bonus:4395,
@@ -13,8 +11,6 @@ let ItemsArray = [
     {
         title:"Електричний тример 110",
         image:"img/trimer.jpg",
-        mono:6,
-        pb:8,
         price:4497,
         lower:3498,
         bonus:3396,
@@ -22,8 +18,6 @@ let ItemsArray = [
     {
         title:"Електрична газонокосарка 32",
         image:"img/kosa.jpg",
-        mono:6,
-        pb:8,
         price:4497,
         lower:3297,
         bonus:3195,
@@ -31,8 +25,6 @@ let ItemsArray = [
     {
         title:"Акумуляторний обприскувач 12 N",
         image:"img/pshyk.jpg",
-        mono:6,
-        pb:8,
         price:2190,
         lower:1698,
         bonus:1596,
@@ -54,8 +46,8 @@ if(itemsDiv){
                 <div><img src="${item.image}" class="item-image"></div>
                 <!--Small parts-->
                 <div class="parts-pay">
-                    <div><img src="img/mono-lapka.png" alt="">${item.mono}</div>
-                    <div><img src="img/pryvat.png" alt="">${item.pb}</div>
+                    <div><img src="img/mono-lapka.png" alt="">6</div>
+                    <div><img src="img/pryvat.png" alt="">8</div>
                 </div>
                 <!--Price-->
                 <div class="price">
