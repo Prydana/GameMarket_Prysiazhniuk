@@ -50,12 +50,12 @@ let ItemsArray = [
         stars: 4
     },
     {
-        title: "Phaser 2nd Game",
+        title: "Game",
         author: "Соломонюк Богдан",
         author_photo: "path_to_author_photo.jpg",
         email: "23a_sbr@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "path_to_game_image.jpg",
+        image: "04.jpg",
         game_github: "https://github.com/23asbr/phaser2ndGame",
         game_pages: "https://23asbr.github.io/phaser2ndGame/",
         docs: "https://drive.google.com/drive/folders/1JcIFHoj8MY56cyNeD8yoQkIgYxHIFwl3?usp=drive_link",
@@ -136,19 +136,20 @@ let itemsDiv = document.getElementById('items');
 if(itemsDiv){
     //Yes
     ItemsArray
+    .sort((a,b)=>a.author.localeCompare(b.author))
     .forEach((item, index)=>{
         //console.log(item)
         itemsDiv.innerHTML += 
         `<div class="item">
                 <!--Name-->
                 <div class="item-title">${item.title}</div>
-                <div class="item-title">${item.author}</div>
+                <div>${item.author}</div>
+                <!--Info-->
+                <div>${item.group}</div>
+                <div><a href="${item.email}">Написати</a></div>
                 <!--Photo-->
                 <div><img src="img_st/${item.author_photo}" class="item-image"></div>
                 <div><img src="img_st/${item.image}" class="item-image"></div>
-                <!--Info-->
-                <div><a href="${item.email}">Написати</a></div>
-                <div>${item.group}</div>
                 <!--Game-->
                 <div><a href="${item.game_github}">GitHub гри</a></div>
                 <div><a href=${item.game_pages}>Гра</a></div>
@@ -158,8 +159,6 @@ if(itemsDiv){
                 <div><a href="${item.gamemarket_github}">GitHub маркету</a></div>
                 <div><a href="${item.gamemarket_pages}">Маркет ігор</a></div>
                 <div><a href="${item.market_pagesb}">Маркет продуктів</a></div>
-                <!--Mark-->
-                <div>${item.stars}</div>
         </div>`
     })
    
