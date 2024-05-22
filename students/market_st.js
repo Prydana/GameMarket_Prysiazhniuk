@@ -255,7 +255,7 @@ if(itemsDiv){
                 <div><a href="${item.docs}">Документація</a></div>
                 <div><a href=">${item.forms}">Опитування</a></div>
                 <div><a href="${item.gamemarket_github}">GitHub маркету</a></div>
-                <div><a href="${item.gamemarket_pages}">Маркет ігор</a></div>
+                <div><a href="${item.gamemarket_pages}">Маркет ігор початковий</a></div>
                 <div><a href="${item.market_pagesb}">Маркет продуктів</a></div>
                 </div>
         </div>`
