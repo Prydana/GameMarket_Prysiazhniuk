@@ -71,7 +71,7 @@ let ItemsArray = [
         author_photo: "path_to_author_photo.jpg",
         email: "23a_fyev@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "path_to_game_image.jpg",
+        image: "05.jpg",
         game_github: "https://github.com/filimonchukevgeniy/Phaser2ndGame",
         game_pages: "https://filimonchukevgeniy.github.io/Phaser2ndGame/",
         docs: "https://drive.google.com/drive/folders/1gLzj_epUzeFt_KBhcfez33Xx4fcSrSJ9",
