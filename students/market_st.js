@@ -242,7 +242,7 @@ if(itemsDiv){
                 <div>${item.author}</div>
                 <!--Info-->
                 <div>${item.group}</div>
-                <div><a href="${item.email}">${item.email}</a></div>
+                <div><a href="${item.email}" target="_blank">${item.email}</a></div>
                 <!--Photo-->
                 <div class="photos">
                 <img src="img_st/${item.author_photo}" class="item-photo">
@@ -250,13 +250,13 @@ if(itemsDiv){
                 </div>
                 <!--Game-->
                 <div class="links">
-                <div><a href="${item.game_github}">GitHub гри</a></div>
-                <div><a href=${item.game_pages}>Гра</a></div>
-                <div><a href="${item.docs}">Документація</a></div>
-                <div><a href=">${item.forms}">Опитування</a></div>
-                <div><a href="${item.gamemarket_github}">GitHub маркету</a></div>
-                <div><a href="${item.gamemarket_pages}">Маркет ігор початковий</a></div>
-                <div><a href="${item.market_pagesb}">Маркет продуктів</a></div>
+                <div><a href="${item.game_github}" target="_blank">GitHub гри</a></div>
+                <div><a href=${item.game_pages} target="_blank">Гра</a></div>
+                <div><a href="${item.docs}" target="_blank">Документація</a></div>
+                <div><a href=">${item.forms}" target="_blank">Опитування</a></div>
+                <div><a href="${item.gamemarket_github}" target="_blank">GitHub маркету</a></div>
+                <div><a href="${item.gamemarket_pages}" target="_blank">Маркет ігор початковий</a></div>
+                <div><a href="${item.market_pagesb}" target="_blank">Маркет продуктів</a></div>
                 </div>
         </div>`
     })
