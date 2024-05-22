@@ -11,7 +11,7 @@ body {
 }
 
 content {
-    width: 460px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ content {
     width: 800px;
     padding: 10px;
     margin-top: 20px;
-    background: rgb(253, 48, 48);
+    background: #0056b3;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 Irgba(0, 0, 0, 0.19);
     color: white;
@@ -55,64 +55,41 @@ content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:10px;
 }
 .item-title{
     font-weight: bold;
     max-width: 780px;
     min-height:32px;
 }
-.item-image{
-    height: 200px;
-}
-.parts-pay{
+.item-photos{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
 }
-.parts-pay img{
-    height: 24px;
+.item-photo{
+    height: 300px;
+    width: 200px;
 }
-.price{
-    border: 1px solid rgb(194, 194, 194);
-    border-radius: 5px;
-    padding: 5px 10px;
-    display: flex;
+.item-image{
+    height: 300px;
+    width: 500px;
 }
-.price div:first-child{
-    width: 100px;
-    font-size: 20px;
-}
-.price div:first-child span{
-    text-decoration-line: line-through;
-}
-.price div:first-child sup{
-    font-size: 12px;
-}
-.price div:last-child{
-    font-size: 24px;
-}
-.price div:last-child sup{
-    font-size: 14px;
-}
-.bonus{
-    background: rgb(253, 48, 48);
+.links a {
+    display: block;
+    background-color: #007BFF;
     color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
-.bonus div:first-child{
-    width: 100px;
-    font-size: 14px;
+.links a:hover {
+    background-color: #0056b3;
 }
-.bonus div:last-child{
-    font-size: 24px;
-}
-.bonus div:last-child sup{
-    font-size: 14px;
-}
-.contacts p {
+/*.contacts p {
     margin: 3px;
 }
 
@@ -129,4 +106,4 @@ content {
     font-size: 9px;
     text-align: justify;
     color: rgb(120, 120, 120);
-}
+}*/

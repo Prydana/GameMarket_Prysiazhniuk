@@ -4,10 +4,10 @@ let ItemsArray = [
     {
         title: "Carpathians",
         author: "Присяжнюк Богдана",
-        author_photo: "",
+        author_photo: "Присяжнюк.jpg",
         email: "23a_pbv@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "game 01.jpg",
+        image: "01.jpg",
         game_github: "https://github.com/Prydana/Phaser2stGame",
         game_pages: "https://prydana.github.io/Phaser2stGame/",
         docs: "https://drive.google.com/drive/folders/1K--lAbvnwzUQ4BjN136Blvp46ErW0mkJ",
@@ -20,10 +20,10 @@ let ItemsArray = [
     {
         title: "Title",
         author: "Недзвецький Олег",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Недзвецький.jpg",
         email: "23a_nom@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "game 02.jpg",
+        image: "02.jpg",
         game_github: "https://github.com/Viogoo/Phaser2stGame2",
         game_pages: "https://viogoo.github.io/Phaser2stGame2/",
         docs: "https://drive.google.com/drive/folders/1a-3VlIBE5SnalcPulY1mKWRTqvyydk5i?usp=sharing",
@@ -36,10 +36,10 @@ let ItemsArray = [
     {
         title: "Phaser 2nd Game",
         author: "Ніцкевич Дар'я",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Ніцкевич.jpg",
         email: "23a_ndi@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "game 03.jpg",
+        image: "03.jpg",
         game_github: "https://github.com/Daria1284/Phaser2ndGame",
         game_pages: "https://daria1284.github.io/Phaser2ndGame/",
         docs: "https://drive.google.com/drive/folders/1sx_bP3YdCY99mFM02u-FVcmtGm8bfNc1?usp=drive_link",
@@ -52,7 +52,7 @@ let ItemsArray = [
     {
         title: "Game",
         author: "Соломонюк Богдан",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Соломонюк.jpg",
         email: "23a_sbr@liceum.ztu.edu.ua",
         group: "10-А 2",
         image: "04.jpg",
@@ -66,9 +66,9 @@ let ItemsArray = [
         stars: 4
     },
     {
-        title: "Phaser 2nd Game",
+        title: "Comiks",
         author: "Філімончук Євгеній",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Філімончук.jpg",
         email: "23a_fyev@liceum.ztu.edu.ua",
         group: "10-А 2",
         image: "05.jpg",
@@ -82,12 +82,12 @@ let ItemsArray = [
         stars: 4
     },
     {
-        title: "Phaser 2nd Game",
+        title: "Game",
         author: "Сікалюк Артем",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Сікалюк.jpg",
         email: "23a_sai@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "path_to_game_image.jpg",
+        image: "06.jpg",
         game_github: "https://github.com/lokloter/Phaser2ndGame",
         game_pages: "https://lokloter.github.io/Phaser2ndGame/",
         docs: "https://drive.google.com/drive/folders/1CVaq2qHRHtju8V-IVYyI2a2bBJLlE-VH?usp=sharing",
@@ -98,12 +98,12 @@ let ItemsArray = [
         stars: 4
     },
     {
-        title: "Phaser 2nd Game",
+        title: "Title",
         author: "Якубець Денис",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Якубець.jpg",
         email: "23a_yada@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "path_to_game_image.jpg",
+        image: "07.jpg",
         game_github: "https://github.com/D3nis1238/Phaser-2nd-Game",
         game_pages: "https://d3nis1238.github.io/Phaser-2nd-Game/?authuser=0",
         docs: "https://docs.google.com/document/d/1H_AWqM8u9rFfDKVAxynlz5wGyiIW2AzeI2gTvWWs7Wc/edit?usp=sharing",
@@ -114,20 +114,116 @@ let ItemsArray = [
         stars: 4
     },
     {
-        title: "Platformer",
+        title: "Phaser2ndGame",
         author: "Будішевський Єгор",
-        author_photo: "path_to_author_photo.jpg",
+        author_photo: "Будішевський.jpg",
         email: "23a_byeyu@liceum.ztu.edu.ua",
         group: "10-А 2",
-        image: "path_to_game_image.jpg",
+        image: "08.jpg",
         game_github: "https://github.com/EgorZTUkl/Platformer",
         game_pages: "https://egorztukl.github.io/Platformer/",
         docs: "https://drive.google.com/drive/folders/1Gme_cOgj7R14t3kaxbLxjPxgmTvhTKYq?usp=drive_link",
         forms: "https://forms.gle/ziZ41L7qHnzp6o7x6",
-        gamemarket_github: "N/A",
-        gamemarket_pages: "N/A",
-        market_pages: "N/A",
+        gamemarket_github: "",
+        gamemarket_pages: "",
+        market_pages: "",
         stars: 3
+    },
+    {
+        title: "Title",
+        author: "Мединський Роман",
+        author_photo: "Мединський.jpg",
+        email: "23a_mrd@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "09.jpg",
+        game_github: "https://github.com/MedynskyiRoman/Phaser2ndGame",
+        game_pages: "https://medynskyiroman.github.io/Phaser2ndGame/",
+        docs: "https://drive.google.com/drive/folders/1ujjej9ifF-2xqLKIc5X2vpohSn6ZenZ4?usp=sharing",
+        forms: "https://forms.gle/MzKxFco9L798EjKi8?authuser=1",
+        gamemarket_github: "https://github.com/MedynskyiRoman/GameMarket_Medynskyi",
+        gamemarket_pages: "https://medynskyiroman.github.io/GameMarket_Medynskyi/",
+        market_pages: "https://medynskyiroman.github.io/market-test1",
+        stars: 4
+    },
+    {
+        title: "Phaser2ndGame",
+        author: "Михальський Нікіта",
+        author_photo: "Михальський.jpg",
+        email: "23a_mnv@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "10.jpg",
+        game_github: "https://github.com/Cement-Official/Minorun",
+        game_pages: "https://cement-official.github.io/Minorun/",
+        docs: "https://docs.google.com/document/d/1lgWfQHAtTu1E_xi-3cKiAC_8ZR0TD4xTL6B5dMvqGY0/edit?usp=sharing",
+        forms: "https://forms.gle/XVTQaam7Maj2HLCh8",
+        gamemarket_github: "https://github.com/Cement-Official/GameMarket_Myhalskiy",
+        gamemarket_pages: "https://cement-official.github.io/GameMarket_Myhalskiy/",
+        market_pages: "https://cement-official.github.io/GameMarket_Myhalskiy/market.html?authuser=0",
+        stars: 4
+    },
+    {
+        title: "ЗОВ Пікселів",
+        author: "Столяров Руслан",
+        author_photo: "Столяров.jpg",
+        email: "23a_srm@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "11.jpg",
+        game_github: "https://github.com/Shxdxwbxrnzz/Phaser2ndGame",
+        game_pages: "https://shxdxwbxrnzz.github.io/Phaser2ndGame/",
+        docs: "https://drive.google.com/drive/folders/1hAhvz34e5KZ7pK-6kGDYw0V-MhZHmw3k?usp=sharing",
+        forms: "https://docs.google.com/forms/d/e/1FAIpQLSfGf9QIp20gQ-Cl5FrVKXoFKkE8QcHToU52-BWm9EFHfomLUw/viewform?usp=sharing",
+        gamemarket_github: "https://github.com/Shxdxwbxrnzz/GameMarket_Stolyarov",
+        gamemarket_pages: "https://shxdxwbxrnzz.github.io/GameMarket_Stolyarov/",
+        market_pages: "https://shxdxwbxrnzz.github.io/Market/market.html",
+        stars: 4
+    },
+    {
+        title: "",
+        author: "Столярчук Дмитро",
+        author_photo: "Столярчук.jpg",
+        email: "23a_sdv@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "",
+        game_github: "",
+        game_pages: "",
+        docs: "https://drive.google.com/drive/folders/12U9uaTrFbhzDPFx_wr8EnpO-ETNscTE5?usp=sharing",
+        forms: "https://forms.gle/mbTievdu9FFLXpnV8",
+        gamemarket_github: "",
+        gamemarket_pages: "",
+        market_pages: "",
+        stars: 3
+    },
+    {
+        title: "",
+        author: "Ткач Кирил",
+        author_photo: "Ткач.jpg",
+        email: "23a_tkv@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "",
+        game_github: "https://github.com/21kery21/MyFirstPygameGame",
+        game_pages: "",
+        docs: "https://drive.google.com/drive/folders/1fuUL8e5OCvSsQlp2i2UlqLIqwoI9QLOg?usp=sharing",
+        forms: "https://forms.gle/uHDRhupAuBvuQrQT9",
+        gamemarket_github: "",
+        gamemarket_pages: "",
+        market_pages: "https://21kery21.github.io/Market/",
+        stars: 3
+    },
+    {
+        title: "Title",
+        author: "Хмєль",
+        author_photo: "Хмєль.jpg",
+        email: "23a_khiv@liceum.ztu.edu.ua",
+        group: "10-А 2",
+        image: "14.jpg",
+        game_github: "https://github.com/khiv23/game1",
+        game_pages: "https://khiv23.github.io/game1/",
+        docs: "https://docs.google.com/document/d/1cJxpp8cg3h1lXFxGf03EDxdMv3SWk8C-PO5xYU-xYZg/edit",
+        forms: "https://docs.google.com/forms/d/1iR5j3fyjTa7qKMMM2HUhlMLiP01NLBvM2yoLFQnbX8o/edit",
+        gamemarket_github: "https://github.com/khiv23/GameMarket_Khmel",
+        gamemarket_pages: "https://khiv23.github.io/GameMarket_Khmel/",
+        market_pages: "https://khiv23.github.io/GameMarket_Khmel/market.html",
+        stars: 4
     },
 ]
 //id = "items"
@@ -146,19 +242,22 @@ if(itemsDiv){
                 <div>${item.author}</div>
                 <!--Info-->
                 <div>${item.group}</div>
-                <div><a href="${item.email}">Написати</a></div>
+                <div><a href="${item.email}">${item.email}</a></div>
                 <!--Photo-->
-                <div><img src="img_st/${item.author_photo}" class="item-image"></div>
-                <div><img src="img_st/${item.image}" class="item-image"></div>
+                <div class="photos">
+                <img src="img_st/${item.author_photo}" class="item-photo">
+                <img src="img_st/${item.image}" class="item-image">
+                </div>
                 <!--Game-->
+                <div class="links">
                 <div><a href="${item.game_github}">GitHub гри</a></div>
                 <div><a href=${item.game_pages}>Гра</a></div>
                 <div><a href="${item.docs}">Документація</a></div>
-                <div><a href=">${item.forms}">Опитування</a</div>
-                <!--Market-->
+                <div><a href=">${item.forms}">Опитування</a></div>
                 <div><a href="${item.gamemarket_github}">GitHub маркету</a></div>
                 <div><a href="${item.gamemarket_pages}">Маркет ігор</a></div>
                 <div><a href="${item.market_pagesb}">Маркет продуктів</a></div>
+                </div>
         </div>`
     })
    
