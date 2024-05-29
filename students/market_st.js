@@ -253,7 +253,7 @@ if(itemsDiv){
                 <div><a href="${item.game_github}" target="_blank">GitHub гри</a></div>
                 <div><a href=${item.game_pages} target="_blank">Гра</a></div>
                 <div><a href="${item.docs}" target="_blank">Документація</a></div>
-                <div><a href=">${item.forms}" target="_blank">Опитування</a></div>
+                <div><a href="${item.forms}" target="_blank">Опитування</a></div>
                 <div><a href="${item.gamemarket_github}" target="_blank">GitHub маркету</a></div>
                 <div><a href="${item.gamemarket_pages}" target="_blank">Маркет ігор початковий</a></div>
                 <div><a href="${item.market_pagesb}" target="_blank">Маркет продуктів</a></div>
